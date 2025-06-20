@@ -31,13 +31,10 @@ const additionalInstructions = `
 
 const 目录结构 = `
 1. components,存放组件
-2. interfaces,存放类型定义
-3. layouts,存放布局
-4. router,路由定义，使用vue-router
-5. stores,定义全局存储和配置,使用pinia
-6. views,存放视图
-7. plugins
-8. styles
+2. layouts,存放布局
+3. stores,定义全局存储和配置,使用pinia
+4. plugins
+5. pages
 `;
 
 
