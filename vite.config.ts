@@ -23,6 +23,7 @@ Object.keys(mdicons).forEach((key) => {
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/vitify-next/',
   plugins: [
     regexpPlugin({
       exclude: ['node_modules/**'],
