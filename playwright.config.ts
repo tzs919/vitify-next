@@ -42,14 +42,14 @@ const config: PlaywrightTestConfig = {
     trace: 'on-first-retry',
 
     /* Only on CI systems run the tests headless */
-    headless: !!process.env.CI,
+    // headless: !!process.env.CI,
     permissions: ['clipboard-read', 'clipboard-write'],
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chrome',
+      name: 'chromium',
       use: {
         ...devices['Desktop Chrome'],
       },
